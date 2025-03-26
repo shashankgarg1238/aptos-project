@@ -1,0 +1,15 @@
+[package]
+name = "Cross-chain-bridge"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Aptos = "0xe37fd3b349241df4906dc4019f1a52d9b5e4b32ee835caf6c9c75f8174df5f7d"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
